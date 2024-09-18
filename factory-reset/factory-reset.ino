@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  
+  delay(600);
   Serial.println(cnt);   // แสดงค่าตัวเลขแต่ละรอบ
 
   // เมื่อรันครบ 10 รอบ (10วินาที) ให้สั่ง reset
